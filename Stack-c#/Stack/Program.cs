@@ -45,6 +45,10 @@ class Program
                         Console.WriteLine(item);
                     }
                     break;
+
+                default:
+                    Console.WriteLine("\nOpção inválida.");
+                    break;
             }
 
         } while (selecao != 4);

@@ -1,0 +1,14 @@
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\bin\Debug\net6.0\ExercicioQueueStack.exe
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\bin\Debug\net6.0\ExercicioQueueStack.deps.json
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\bin\Debug\net6.0\ExercicioQueueStack.runtimeconfig.json
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\bin\Debug\net6.0\ExercicioQueueStack.dll
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\bin\Debug\net6.0\ExercicioQueueStack.pdb
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ExercicioQueueStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ExercicioQueueStack.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ExercicioQueueStack.AssemblyInfo.cs
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ExercicioQueueStack.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ExercicioQueueStack.dll
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\refint\ExercicioQueueStack.dll
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ExercicioQueueStack.pdb
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ExercicioQueueStack.genruntimeconfig.cache
+C:\Users\andre\source\repos\ExercicioQueueStack\ExercicioQueueStack\obj\Debug\net6.0\ref\ExercicioQueueStack.dll

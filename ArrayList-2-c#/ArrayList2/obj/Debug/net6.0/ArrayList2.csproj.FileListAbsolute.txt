@@ -1,0 +1,14 @@
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\bin\Debug\net6.0\ArrayList2.exe
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\bin\Debug\net6.0\ArrayList2.deps.json
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\bin\Debug\net6.0\ArrayList2.runtimeconfig.json
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\bin\Debug\net6.0\ArrayList2.dll
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\bin\Debug\net6.0\ArrayList2.pdb
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ArrayList2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ArrayList2.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ArrayList2.AssemblyInfo.cs
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ArrayList2.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ArrayList2.dll
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\refint\ArrayList2.dll
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ArrayList2.pdb
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ArrayList2.genruntimeconfig.cache
+C:\Users\andre\source\repos\ArrayList2\ArrayList2\obj\Debug\net6.0\ref\ArrayList2.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\ArrayList\\ArrayList\\ArrayList.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-c#\\ArrayList\\ArrayList.csproj",
       "projectName": "ArrayList",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\ArrayList\\ArrayList\\ArrayList.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-c#\\ArrayList\\ArrayList.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\ArrayList\\ArrayList\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-c#\\ArrayList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

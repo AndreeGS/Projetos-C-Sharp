@@ -12,3 +12,17 @@ C:\Users\andre\source\repos\ArrayList\ArrayList\obj\Debug\net6.0\refint\ArrayLis
 C:\Users\andre\source\repos\ArrayList\ArrayList\obj\Debug\net6.0\ArrayList.pdb
 C:\Users\andre\source\repos\ArrayList\ArrayList\obj\Debug\net6.0\ArrayList.genruntimeconfig.cache
 C:\Users\andre\source\repos\ArrayList\ArrayList\obj\Debug\net6.0\ref\ArrayList.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\bin\Debug\net6.0\ArrayList.exe
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\bin\Debug\net6.0\ArrayList.deps.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\bin\Debug\net6.0\ArrayList.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\bin\Debug\net6.0\ArrayList.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\bin\Debug\net6.0\ArrayList.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ArrayList.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ArrayList.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ArrayList.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ArrayList.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\refint\ArrayList.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ArrayList.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ArrayList.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\ArrayList-c#\ArrayList\obj\Debug\net6.0\ref\ArrayList.dll

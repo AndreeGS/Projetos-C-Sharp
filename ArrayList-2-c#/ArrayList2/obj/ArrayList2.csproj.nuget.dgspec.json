@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\ArrayList2\\ArrayList2\\ArrayList2.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-2-c#\\ArrayList2\\ArrayList2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\ArrayList2\\ArrayList2\\ArrayList2.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-2-c#\\ArrayList2\\ArrayList2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\ArrayList2\\ArrayList2\\ArrayList2.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-2-c#\\ArrayList2\\ArrayList2.csproj",
         "projectName": "ArrayList2",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\ArrayList2\\ArrayList2\\ArrayList2.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-2-c#\\ArrayList2\\ArrayList2.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\ArrayList2\\ArrayList2\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\ArrayList-2-c#\\ArrayList2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

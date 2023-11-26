@@ -28,4 +28,4 @@ Olá, pessoal! Abaixo, você encontrará uma lista com as descrições dos meus 
    - Para utilizar, faça o fork na sua máquina e execute o arquivo "Stack.sln". 
    - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
   
-## Em breve trarei novas atualizações desses programas. 👋
+## Em breve teremos novas atualizações desses programas. 👋

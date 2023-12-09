@@ -1,0 +1,14 @@
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\bin\Debug\net6.0\SistemaBancario.exe
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\bin\Debug\net6.0\SistemaBancario.deps.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\bin\Debug\net6.0\SistemaBancario.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\bin\Debug\net6.0\SistemaBancario.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\bin\Debug\net6.0\SistemaBancario.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\SistemaBancario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\SistemaBancario.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\SistemaBancario.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\SistemaBancario.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\SistemaBancario.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\refint\SistemaBancario.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\SistemaBancario.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\SistemaBancario.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Meus-projetos\SistemaBancario\SistemaBancario\obj\Debug\net6.0\ref\SistemaBancario.dll

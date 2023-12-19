@@ -4,7 +4,7 @@ Olá, pessoal! Abaixo, você encontrará uma lista com as descrições dos meus 
 
 ## Projetos 
 
-1. **Sistema Bancário C# *https://github.com/AndreeGS/Meus-projetos/tree/main/SistemaBancario***
+1. **Sistema Bancário C# com armazenamento em HashTable *https://github.com/AndreeGS/Meus-projetos/tree/main/SistemaBancario***
    - Projeto desenvolvido em C# utilizando Programação Orientada a Objetos (POO), no qual foram aplicados conceitos de modificadores de acesso, sobrecarga, estrutura de dados (HashTable), entre outros princípios. O projeto simula um ambiente de sistema bancário, permitindo que os usuários realizem operações como cadastro, visualização de informações, saque e depósito. Destaca-se que as operações de saque resultam em um desconto de 5 reais no saldo do usuário.
    - Principais tecnologias: POO C#, Algoritimo e estrutura de dados.
 

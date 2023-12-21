@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Lista3\\Lista3\\Lista3.csproj",
-      "projectName": "Lista3",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Lista3\\Lista3\\Lista3.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Lista3\\Lista3\\RH.csproj",
+      "projectName": "RH",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Lista3\\Lista3\\RH.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Lista3\\Lista3\\obj\\",
       "projectStyle": "PackageReference",

@@ -11,6 +11,12 @@ Olá, pessoal! Abaixo, você encontrará uma lista com as descrições dos meus 
 2. **Sistema de Calculo de IMC com armazenamento em HashTable *https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/IMC***
    - Esse projeto consiste em uma aplicação console de Calculo de IMC, onde os valores são armazenados em uma tabela Hash junto com um ID gerado aleatóriamente. Outro ponto importante é que essa é minha primeira aplicação usando Structs. Foi utilizado conceitos de POO em c# como encapsulamento, structs,  tabela hash, construtores e outros assuntos.
    - Principais tecnologias:  POO C#, Algoritimos e estrutura de dados.
+
+3. **Sistema de RH com armazenamento em List *https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/RH***
+   - Projeto desenvolvido simulado um sistema de gerenciamento de funcionários. No programa, é possível: cadastrar funcionário, consultar salário, realizar aumento e redução de salário, visualizar todos os funcionários cadastrados, pesquisar funcionário e ordenar lista de funcionários. O intuito deste projeto e aplicar e aprimorar meus conhecimentos em POO C#.
+   - Programa ainda em desenvolvimento.
+   - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
+
   
 3. **Aplicação Console-c# *https://github.com/AndreeGS/Meus-projetos/tree/main/Aplica%C3%A7%C3%A3o%20Console-c%23***
    - Esse projeto consiste em uma aplicação console de cadastro de veículos. Utilizei conceitos de POO em c# como encapsulamento, herança, matriz multi dimensional, construtores e outros assuntos. Importante destacar que ainda estou trabalhando nesse projeto, por isso ainda se encontra alguns erros.

@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using RH;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,7 @@ namespace Funcionarios
         private double _salario;
         private int _id;
 
-        List<Funcionario> _lista = new List<Funcionario>();
-
+        DataContext data = new DataContext();
         public Funcionario() { }
         public Funcionario(string nome, double salario, int id)
         {
@@ -25,23 +25,23 @@ namespace Funcionarios
 
         public string Cadastrar()
         {
-            Console.WriteLine("Qual a quantidade de funcionários você deseja cadastrar?");
+            Console.WriteLine("\nQual a quantidade de funcionários você deseja cadastrar?");
             int quantidade = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < quantidade; i++)
             {
-                Console.WriteLine("Qual o nome do funcionário?");
+                Console.WriteLine("\nQual o nome do funcionário?");
                 string nome = Console.ReadLine();
 
-                Console.WriteLine("Qual o valor do salário?");
+                Console.WriteLine("\nQual o valor do salário?");
                 double salario = double.Parse(Console.ReadLine());
 
-                Console.WriteLine("Qual o Id você deseja atribuir?");
+                Console.WriteLine("\nQual o Id você deseja atribuir?");
                 int id = int.Parse(Console.ReadLine());
 
-                Funcionario funcionario = new Funcionario(nome, salario, id);
+                data.cadastrar(nome, salario, id);
 
-                _lista.Add(funcionario);
+                Console.WriteLine("Usuário Cadastrado com sucesso!");
             }
 
             return "\nFuncionário Cadastrado com sucesso.";
@@ -54,7 +54,7 @@ namespace Funcionarios
 
             try
             {
-                Funcionario dado = _lista.Find(x => x._id == id);
+                var dado = data.consulta(id);
 
                 if (dado != null)
                 {
@@ -180,6 +180,35 @@ namespace Funcionarios
             {
                 Console.WriteLine($"Nome: {dado._nome}, Salário: R$ {dado._salario}, Id: {dado._id}.");
             }
+        }
+
+        public double CalcularImpostoDeRenda()
+        {
+            double imposto = 0;
+            double Salario = _lista._salario;
+
+            if (Salario <= 1903.98)
+            {
+                imposto = 0;
+            }
+            else if (Salario <= 2826.65)
+            {
+                imposto = (Salario - 1903.98) * 0.075;
+            }
+            else if (Salario <= 3751.05)
+            {
+                imposto = (Salario - 2826.65) * 0.15;
+            }
+            else if (Salario <= 4664.68)
+            {
+                imposto = (Salario - 3751.05) * 0.225;
+            }
+            else
+            {
+                imposto = (Salario - 4664.68) * 0.275;
+            }
+
+            return imposto;
         }
     }
 }

@@ -25,7 +25,25 @@ namespace Funcionarios
 
         public string Cadastrar()
         {
-            _lista.Add(this);
+            Console.WriteLine("Qual a quantidade de funcionários você deseja cadastrar?");
+            int quantidade = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < quantidade; i++)
+            {
+                Console.WriteLine("Qual o nome do funcionário?");
+                string nome = Console.ReadLine();
+
+                Console.WriteLine("Qual o valor do salário?");
+                double salario = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Qual o Id você deseja atribuir?");
+                int id = int.Parse(Console.ReadLine());
+
+                Funcionario funcionario = new Funcionario(nome, salario, id);
+
+                _lista.Add(funcionario);
+            }
+
             return "\nFuncionário Cadastrado com sucesso.";
         }
 
@@ -165,8 +183,6 @@ namespace Funcionarios
         }
     }
 }
-
-........................
 
 
 

@@ -10,11 +10,13 @@ namespace Funcionarios
 {
     internal class Funcionario
     {
-        private string _nome;
-        private double _salario;
-        private int _id;
+        public string _nome;
+        public double _salario;
+        public int _id;
 
+        public List<Funcionario> _lista = new List<Funcionario>();
         DataContext data = new DataContext();
+
         public Funcionario() { }
         public Funcionario(string nome, double salario, int id)
         {
@@ -23,38 +25,16 @@ namespace Funcionarios
             _salario = salario;
         }
 
-        public string Cadastrar()
+        public void Cadastrar(string nome, double salario, int id)
         {
-            Console.WriteLine("\nQual a quantidade de funcionários você deseja cadastrar?");
-            int quantidade = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < quantidade; i++)
-            {
-                Console.WriteLine("\nQual o nome do funcionário?");
-                string nome = Console.ReadLine();
-
-                Console.WriteLine("\nQual o valor do salário?");
-                double salario = double.Parse(Console.ReadLine());
-
-                Console.WriteLine("\nQual o Id você deseja atribuir?");
-                int id = int.Parse(Console.ReadLine());
-
-                data.cadastrar(nome, salario, id);
-
-                Console.WriteLine("Usuário Cadastrado com sucesso!");
-            }
-
-            return "\nFuncionário Cadastrado com sucesso.";
+            data.cadastrar(nome, salario, id);
         }
 
-        public string GetSalario()
+        public string GetSalario(int id)
         {
-            Console.WriteLine("\nPara qual Id você deseja consultar o salário?");
-            int id = int.Parse(Console.ReadLine());
-
             try
             {
-                var dado = data.consulta(id);
+               Funcionario dado = data.dataResgatarSalario(id);
 
                 if (dado != null)
                 {
@@ -67,29 +47,26 @@ namespace Funcionarios
             }
             catch
             {
-                return "\nOcorreu algum erro.";
+                return "\nId não existente na base de dados";
             }
 
         }
 
-        public void aumentarSalario()
+        public void aumentarSalario(int id)
         {
-            Console.WriteLine("\nPara qual Id, você deseja realizar o aumento?");
-            int id = int.Parse(Console.ReadLine());
-
             try
             {
-                Funcionario dado = _lista.Find(x => x._id == id);
+                Funcionario dado = data.dataVerificador(id);
 
                 if (dado != null)
                 {
                     Console.WriteLine("\nQual o valor do aumento?");
                     double valorAumento = double.Parse(Console.ReadLine());
 
-                    dado._salario += valorAumento;
+                    data.dataAumentarSalario(id, valorAumento);
 
                     Console.WriteLine("\nAumento de salário realizado com sucesso.");
-                    Console.WriteLine($"Informações do funcionário: {dado._nome}, Salário: R$ {dado._salario}");
+                    Console.WriteLine($"\nInformações do funcionário: {dado._nome}, Salário: R$ {dado._salario}");
                 }
                 else
                 {
@@ -102,21 +79,20 @@ namespace Funcionarios
             }
         }
 
-        public void reduzirSalario()
+        public void reduzirSalario(int id)
         {
-            Console.WriteLine("\nPara qual Id, você deseja realizar a redução?");
-            int id = int.Parse(Console.ReadLine());
 
             try
             {
-                Funcionario dado = _lista.Find(x => x._id == id);
+                Funcionario dado = data.dataVerificador(id);
 
                 if (dado != null)
                 {
                     Console.WriteLine("\nQual o valor da redução?");
                     double valorReducao = double.Parse(Console.ReadLine());
 
-                    dado._salario -= valorReducao;
+                    data.dataReduzirSalario(id, valorReducao);
+                    
 
                     Console.WriteLine("\nRedução de salário realizada com sucesso.");
                     Console.WriteLine($"Informações do funcionário: {dado._nome}, R$ {dado._salario}");
@@ -134,10 +110,7 @@ namespace Funcionarios
 
         public void visualizarFuncionarios()
         {
-            foreach (var dado in _lista)
-            {
-                Console.WriteLine($"Nome: {dado._nome}, Salário: R$ {dado._salario}, Id: {dado._id}.");
-            }
+            data.dataVisualizarFuncionarios();
         }
 
         public void pesquisarFuncionario()
@@ -153,20 +126,34 @@ namespace Funcionarios
                     Console.WriteLine("Digite o número de Id: ");
                     int id = int.Parse(Console.ReadLine());
 
-                    Funcionario dado1 = _lista.Find(x => x._id == id);
+                    Funcionario dado1 = data.dataPesquisarid(id);
 
-                    Console.WriteLine($"Usuário encontrado.");
-                    Console.WriteLine($"Nome: {dado1._nome}, salário: R$ {dado1._salario}, Id: {dado1._id}");
+                    if (dado1 != null)
+                    {
+                        Console.WriteLine($"Usuário encontrado.");
+                        Console.WriteLine($"Nome: {dado1._nome}, salário: R$ {dado1._salario}, Id: {dado1._id}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Funcionario não encontrado!");
+                    }
                     break;
 
                 case 2:
                     Console.WriteLine("Digite o nome: ");
                     string nome = Console.ReadLine();
 
-                    Funcionario dado2 = _lista.Find(x => x._nome == nome);
+                    Funcionario dado2 = data.dataPesquisarNome(nome);
 
-                    Console.WriteLine($"Usuário encontrado.");
-                    Console.WriteLine($"Nome: {dado2._nome}, salário: R$ {dado2._salario}, Id: {dado2._id}");
+                    if (dado2 != null)
+                    {
+                        Console.WriteLine($"Usuário encontrado.");
+                        Console.WriteLine($"Nome: {dado2._nome}, salário: R$ {dado2._salario}, Id: {dado2._id}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Funcionario não encontrado!");
+                    }
                     break;
             }
 
@@ -174,18 +161,15 @@ namespace Funcionarios
 
         public void Ordenar()
         {
-            _lista.Sort();
-
-            foreach (var dado in _lista)
-            {
-                Console.WriteLine($"Nome: {dado._nome}, Salário: R$ {dado._salario}, Id: {dado._id}.");
-            }
+            data.dataOrdenar();
+            Console.WriteLine("A lista foi ordenada");
         }
+
 
         public double CalcularImpostoDeRenda()
         {
             double imposto = 0;
-            double Salario = _lista._salario;
+            double Salario = 2;
 
             if (Salario <= 1903.98)
             {

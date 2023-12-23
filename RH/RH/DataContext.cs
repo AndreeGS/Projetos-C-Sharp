@@ -9,36 +9,76 @@ namespace RH
 {
     internal class DataContext
     {
+        
         public List<Funcionario> _lista = new List<Funcionario>();
 
-        private string _nomeData;
-        private int _idData;
-        private double _salarioData;
-
         public DataContext() { }
-        public DataContext(string nome, double salario, int id) 
-        {
-            _nomeData = nome;
-            _idData = id;
-            _salarioData = salario;
-        }
-
+        
         public void cadastrar(string nome, double salario, int id)
         {
             Funcionario funcionario = new Funcionario(nome, salario, id);
             _lista.Add(funcionario);
         }
 
-        public Funcionario consulta(int id)
+        public Funcionario dataResgatarSalario(int id)
         {
-            Funcionario dado = _lista.Find(x => x._id);
+            Funcionario funcionario = new Funcionario ();
+
+            var dado = _lista.Find(x => x._id == id);
+
 
             return dado;
         }
 
-        public void aumentoSalario()
+        public Funcionario dataVerificador(int Id)
         {
+            Funcionario dado = _lista.Find(x => x._id == Id);
 
+            return dado;
+        }
+
+        public void dataAumentarSalario(int id, double valorAumento)
+        {
+            Funcionario dado = _lista.Find(x => x._id == id);
+
+            dado._salario += valorAumento;
+        }
+
+        public void dataReduzirSalario(int id, double valorRedução)
+        {
+            Funcionario dado = _lista.Find(x => x._id == id);
+
+            dado._salario -= valorRedução;
+        }
+
+        public void dataVisualizarFuncionarios()
+        {
+            Console.WriteLine("\nVisualizando a lista de funcionários: ");
+            Console.WriteLine();
+
+            foreach (var dado in _lista)
+            {
+                Console.WriteLine($"Nome: {dado._nome}, Salário: R$ {dado._salario}, Id: {dado._id}.");
+            }
+        }
+
+        public Funcionario dataPesquisarid(int id)
+        {
+            Funcionario dado = _lista.Find(x => x._id == id);
+
+            return dado;
+        }
+
+        public Funcionario dataPesquisarNome(string nome)
+        {
+            Funcionario dado = _lista.Find(x => x._nome == nome);
+
+            return dado;
+        }
+
+        public void dataOrdenar()
+        {
+            _lista.Sort();
         }
     }
 }

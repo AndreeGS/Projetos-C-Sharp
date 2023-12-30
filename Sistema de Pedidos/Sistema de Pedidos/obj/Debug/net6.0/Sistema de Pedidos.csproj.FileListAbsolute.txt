@@ -1,0 +1,14 @@
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\bin\Debug\net6.0\Sistema de Pedidos.exe
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\bin\Debug\net6.0\Sistema de Pedidos.deps.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\bin\Debug\net6.0\Sistema de Pedidos.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\bin\Debug\net6.0\Sistema de Pedidos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\bin\Debug\net6.0\Sistema de Pedidos.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\Sistema de Pedidos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\Sistema de Pedidos.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\Sistema de Pedidos.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\Sistema de Pedidos.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\Sistema de Pedidos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\refint\Sistema de Pedidos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\Sistema de Pedidos.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\Sistema de Pedidos.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema de Pedidos\Sistema de Pedidos\obj\Debug\net6.0\ref\Sistema de Pedidos.dll

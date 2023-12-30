@@ -10,7 +10,6 @@ namespace Sistema_de_Pedidos.Entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
-
         public Product Product { get; set; }
 
         public OrderItem() { }

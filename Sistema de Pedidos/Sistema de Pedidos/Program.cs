@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using Sistema_de_Pedidos.Entities;
 using Sistema_de_Pedidos.Entities.Enums;
 
@@ -16,18 +17,21 @@ class Program
         Console.Write("Birth date (DD/MM/YYYY): ");
         DateTime date = DateTime.Parse(Console.ReadLine());
 
-        Client client = new Client(name, email, date);
 
         Console.WriteLine("Enter Order data: ");
         Console.Write("Status: ");
         OrderStatus status = (OrderStatus)Enum.Parse(typeof(OrderStatus), Console.ReadLine());
 
+        Client client = new Client(name, email, date);
+        Order order = new Order(DateTime.Now, status, client);
+
+
         Console.Write("How many items to this order? ");
-        int qtd = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine());
 
         DateTime dtNow = DateTime.Now;
 
-        for (int i = 1; i < qtd; i++)
+        for (int i = 1; i < n; i++)
         {
             Console.WriteLine($"Product {i}: ");
             Console.Write("Product name: ");
@@ -36,18 +40,21 @@ class Program
             Console.Write("Product price: ");
             double productPrice = double.Parse(Console.ReadLine());
 
+            Product product = new Product(productName, productPrice);
+
+
             Console.Write("Quantity: ");
             int productQtd = int.Parse(Console.ReadLine());
 
-
-            Product product = new Product(productName, productPrice);
-
             OrderItem orderItem = new OrderItem(productQtd, productPrice, product);
+
+            order.addItem(orderItem);
         }
 
 
-        Order order = new Order(dtNow, status, orderItem, client);
+        Console.WriteLine();
+        Console.WriteLine("ORDER SUMMARY:");
+        Console.WriteLine(order);
 
-        order.addItem(order)
     }
 }

@@ -1,6 +1,6 @@
-# Bem-vindo aos Meus Projetos no GitHub! 👋
+# Bem-vindo aos Meus Projetos em C#! 👋
 
-Olá, pessoal! Abaixo, você encontrará uma lista com as descrições dos meus projetos em c#. Fique à vontade para explorar, contribuir ou deixar um feedback!
+Aqui é onde centralizei meus projetos em C#, você vai encontrar meus estudos de Programação Orientada ao Objeto, Algoritmos e estrutura de Dados, .NET e outros assuntos. Logo abaixo, você pode encontrar meus principais projetos de estudo. Também cabe citar que tenho uma pasta separada que faço o estudo de algoritmos e estruturas de dados (Link da pasta ao final da página). Faça bons estudos com o meu repositório!
 
 ## Projetos 
 
@@ -17,29 +17,18 @@ Olá, pessoal! Abaixo, você encontrará uma lista com as descrições dos meus 
    - Programa ainda em desenvolvimento.
    - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
 
-  
-3. **Aplicação Console-c# *https://github.com/AndreeGS/Meus-projetos/tree/main/Aplica%C3%A7%C3%A3o%20Console-c%23***
+4. **Sistema de pedidos (Compras) *https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/Sistema%20de%20Pedidos***
+   - Um dos projetos que me fazem sentir orgulho dos meus estudos. Nesse projeto faço a simulação de um pedido *compra*, onde é possível adicionar um produto bem como seu preço associado a um cliente. Utilizei uma Lista para armazenar os produtos, valores e quantidade tudo associado a um cliente. Também é capturado a data e hora do pedido e ao final é possível visualizar todas as informações.
+   - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
+
+5. **Sistema CRUD *https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/Sistema%20CRUD***
+   - Projeto de sistema CRUD, o usuário pode cadastrar, visualizar, atualizar e deletar suas informações utilizando o padrão MVC. Projeto ainda em desenvolvimento.
+   - Principais tecnologias: POO C#, Algoritimos e estrutura de dados, .NET, ASP.NET MVC.
+   
+6. **Sinmulação de Cadastro de Veículos *https://github.com/AndreeGS/Meus-projetos/tree/main/Aplica%C3%A7%C3%A3o%20Console-c%23***
    - Esse projeto consiste em uma aplicação console de cadastro de veículos. Utilizei conceitos de POO em c# como encapsulamento, herança, matriz multi dimensional, construtores e outros assuntos. Importante destacar que ainda estou trabalhando nesse projeto, por isso ainda se encontra alguns erros.
    - Principais tecnologias:  POO C#, Algoritimos e estrutura de dados.
 
-4. **ArrayList-2-c# *https://github.com/AndreeGS/Meus-projetos/tree/main/ArrayList-2-c%23***
-   - Nesse projeto, faço o estudo do comportamento de um ArrayList simulando um ambiente de cadastro de alunos onde é possivel: Remover, Listar, Pesquisar, Ordenar e Adicionar alunos. Esse projeto já está finalizado e livre para estudos.
-   - Para utilizar, faça o fork na sua máquina e execute o arquivo "ArrayList2.sln". 
-   - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
-  
-5. **ArrayList-c# *https://github.com/AndreeGS/Meus-projetos/tree/main/ArrayList-c%23***
-   - Essa foi a primeira versão do Projeto ArrayList 2. Da mesma forma, faço o estudo do comportamento de um ArrayList simulando um ambiente de cadastro de aluno. Porém aqui, o projeto se limita há: Remover, Listar e Adicionar alunos. Esse projeto já está finalizado e livre para estudos.
-   - Para utilizar, faça o fork na sua máquina e execute o arquivo "ArrayList.sln". 
-   - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
-  
-6. **Queue-c# *https://github.com/AndreeGS/Meus-projetos/tree/main/Queue-c%23***
-   - Nesse projeto, faço o estudo do comportamento das filas (Queue), onde é seguido o modelo FIFO (First In, First Out), onde podemos: Adicionar elemento, Remover elemento e Visualizar elementos. Esse projeto já está finalizado e livre para estudos.
-   - Para utilizar, faça o fork na sua máquina e execute o arquivo "Queue.sln". 
-   - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
-  
-7. **Stack-c# *https://github.com/AndreeGS/Meus-projetos/tree/main/Stack-c%23***
-   - Nesse projeto, faço o estudo do comportamento das Pilhas (Stacks), onde é seguido o modelo LIFO (Last In, First Out), onde podemos: Adicionar elemento, Remover elemento e Visualizar elementos. Esse projeto já está finalizado e livre para estudos.
-   - Para utilizar, faça o fork na sua máquina e execute o arquivo "Stack.sln". 
-   - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
-  
-## Em breve teremos novas atualizações desses programas. 👋
+---
+Repositório Algoritmos e Estrutura de Dados: 
+https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/Algoritmos%20e%20Estrutura%20de%20Dados

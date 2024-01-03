@@ -1,0 +1,14 @@
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\bin\Debug\net6.0\Algoritmo.exe
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\bin\Debug\net6.0\Algoritmo.deps.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\bin\Debug\net6.0\Algoritmo.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\bin\Debug\net6.0\Algoritmo.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\bin\Debug\net6.0\Algoritmo.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\Algoritmo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\Algoritmo.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\Algoritmo.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\Algoritmo.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\Algoritmo.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\refint\Algoritmo.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\Algoritmo.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\Algoritmo.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Algoritmo\Algoritmo\obj\Debug\net6.0\ref\Algoritmo.dll

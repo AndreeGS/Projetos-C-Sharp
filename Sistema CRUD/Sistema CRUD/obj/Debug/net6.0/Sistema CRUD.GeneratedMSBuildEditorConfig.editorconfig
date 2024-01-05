@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Sistema CRUD\Sistema CRUD
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/andre/OneDrive/Documentos/GitHub/Projetos-C-Sharp/Sistema CRUD/Sistema CRUD/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/andre/OneDrive/Documentos/GitHub/Projetos-C-Sharp/Sistema CRUD/Sistema CRUD/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

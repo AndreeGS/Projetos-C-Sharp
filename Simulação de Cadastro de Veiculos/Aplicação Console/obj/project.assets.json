@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\Aplicação Console\\Aplicação Console\\Aplicação Console.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Simulação de Cadastro de Veiculos\\Aplicação Console\\Aplicação Console.csproj",
       "projectName": "Aplicação Console",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\Aplicação Console\\Aplicação Console\\Aplicação Console.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Simulação de Cadastro de Veiculos\\Aplicação Console\\Aplicação Console.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\Aplicação Console\\Aplicação Console\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Simulação de Cadastro de Veiculos\\Aplicação Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

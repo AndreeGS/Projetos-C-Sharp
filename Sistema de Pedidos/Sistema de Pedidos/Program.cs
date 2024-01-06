@@ -19,7 +19,7 @@ class Program
 
 
         Console.WriteLine("Enter Order data: ");
-        Console.Write("Status: ");
+        Console.Write("Status (PendingPayment, Processing, Shipped, Delivered): ");
         OrderStatus status = (OrderStatus)Enum.Parse(typeof(OrderStatus), Console.ReadLine());
 
         Client client = new Client(name, email, date);
@@ -31,7 +31,7 @@ class Program
 
         DateTime dtNow = DateTime.Now;
 
-        for (int i = 1; i < n; i++)
+        for (int i = 0; i < n; i++)
         {
             Console.WriteLine($"Product {i}: ");
             Console.Write("Product name: ");

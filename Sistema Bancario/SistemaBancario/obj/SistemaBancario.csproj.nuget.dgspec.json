@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\SistemaBancario\\SistemaBancario\\SistemaBancario.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\SistemaBancario\\SistemaBancario\\SistemaBancario.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\SistemaBancario\\SistemaBancario\\SistemaBancario.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj",
         "projectName": "SistemaBancario",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\SistemaBancario\\SistemaBancario\\SistemaBancario.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Meus-projetos\\SistemaBancario\\SistemaBancario\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

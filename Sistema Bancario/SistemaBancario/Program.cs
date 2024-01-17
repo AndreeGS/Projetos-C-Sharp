@@ -15,7 +15,6 @@ namespace Aplicacao
             Menu menu = new Menu();
             menu.exibirMenuDeAcesso();
 
-
         }
     }
 }

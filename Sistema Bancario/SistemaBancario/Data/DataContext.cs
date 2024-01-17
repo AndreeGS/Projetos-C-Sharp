@@ -1,13 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
 namespace SistemaBancario.Data
 {
     public class DataContext
     {
-        string connectionString = "Data Source=DESKTOP-59O6R81\\SQLEXPRESS;Initial Catalog=SistemaBancario;Integrated Security=True;";
+        private static string connectionString = "Data Source=DESKTOP-59O6R81\\SQLEXPRESS;Initial Catalog=SistemaBancario;Integrated Security=True;";
+
+        public static void conction()
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 
-namespace SistemaBancario.Entities.Client
+namespace SistemaBancario.Entities.Clients
 {
     public class Client
     {

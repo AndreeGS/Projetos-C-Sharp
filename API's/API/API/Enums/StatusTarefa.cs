@@ -5,10 +5,10 @@ namespace API.Enums
     public enum StatusTarefa
     {
         [Description("A fazer")]
-        Afazer = 1,
+        Afazer ,
         [Description("Em andamento")]
-        EmAndamento = 2,
+        EmAndamento ,
         [Description("Concluido")]
-        Concluido = 3
+        Concluido 
     }
 }

@@ -26,6 +26,20 @@ namespace API.Repositorios
 
         public async Task<TarefaModel> AdicionarTarefa(TarefaModel tarefa)
         {
+            if (tarefa.UsuarioID <= 0)
+            {
+                throw new ArgumentException("Id de usuário inválido!");
+            }
+
+            UsuarioModel usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.ID == tarefa.UsuarioID);
+
+            if (usuario == null)
+            {
+                throw new ArgumentException("Id não encontrado!");
+            }
+
+            tarefa.UsuarioID = usuario.ID;
+
             await _context.Tarefas.AddAsync(tarefa);
             await _context.SaveChangesAsync();
 

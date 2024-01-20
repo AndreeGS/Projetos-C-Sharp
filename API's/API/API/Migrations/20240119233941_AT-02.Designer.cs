@@ -3,6 +3,7 @@ using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(SistemaTarefasDbContext))]
-    partial class SistemaTarefasDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240119233941_AT-02")]
+    partial class AT02
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,6 +48,8 @@ namespace API.Migrations
 
                     b.HasKey("ID");
 
+                    b.HasIndex("UsuarioID");
+
                     b.ToTable("Tarefas");
                 });
 
@@ -70,6 +74,22 @@ namespace API.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("API.Models.TarefaModel", b =>
+                {
+                    b.HasOne("API.Models.UsuarioModel", "Usuario")
+                        .WithMany("Tarefa")
+                        .HasForeignKey("UsuarioID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("API.Models.UsuarioModel", b =>
+                {
+                    b.Navigation("Tarefa");
                 });
 #pragma warning restore 612, 618
         }

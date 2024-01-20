@@ -63,5 +63,10 @@ namespace API.Repositorios
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<List<TarefaModel>> BuscarTarefasDoUsuario(int id)
+        {
+            return await _context.Tarefas.Where(u => u.UsuarioID == id).ToListAsync();
+        }
     }
 }

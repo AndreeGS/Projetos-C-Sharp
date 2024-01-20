@@ -12,6 +12,9 @@ namespace API.Repositorios.Interfaces
         Task<UsuarioModel> Atualizar(UsuarioModel usuario, int id);
 
         Task<bool> Apagar(int id);
-        
+
+        Task<List<TarefaModel>> BuscarTarefasDoUsuario(int id);
+
+
     }
 }

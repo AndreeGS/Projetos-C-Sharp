@@ -29,6 +29,13 @@ namespace API.Controllers
             return Ok(usuario);
         }
 
+        [HttpGet("{id}/Tarefas")]
+        public async Task<ActionResult<List<TarefaModel>>> BuscarTarefasDoUsuario(int id)
+        {
+            List<TarefaModel> usuario = await _usuarioRepositorio.BuscarTarefasDoUsuario(id);
+            return Ok(usuario);
+        }
+
         [HttpPost]
         public async Task<ActionResult<UsuarioModel>> Cadastrar([FromBody] UsuarioModel usuarioModel)
         {

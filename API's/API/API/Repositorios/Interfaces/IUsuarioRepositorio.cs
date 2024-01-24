@@ -15,6 +15,5 @@ namespace API.Repositorios.Interfaces
 
         Task<List<TarefaModel>> BuscarTarefasDoUsuario(int id);
 
-
     }
 }

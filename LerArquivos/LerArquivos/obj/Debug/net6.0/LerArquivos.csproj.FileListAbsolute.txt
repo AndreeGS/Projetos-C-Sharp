@@ -1,0 +1,14 @@
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\bin\Debug\net6.0\LerArquivos.exe
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\bin\Debug\net6.0\LerArquivos.deps.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\bin\Debug\net6.0\LerArquivos.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\bin\Debug\net6.0\LerArquivos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\bin\Debug\net6.0\LerArquivos.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\LerArquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\LerArquivos.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\LerArquivos.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\LerArquivos.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\LerArquivos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\refint\LerArquivos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\LerArquivos.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\LerArquivos.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\LerArquivos\LerArquivos\obj\Debug\net6.0\ref\LerArquivos.dll

@@ -15,26 +15,41 @@ namespace LerArquivos
 
             try
             {
-              
-                string [] gpaRegistros = File.ReadAllLines(gpaPath);
-                string [] piRegistros = File.ReadAllLines(piPath);
+
+                List<string> gpaRegistros = File.ReadAllLines(gpaPath).ToList();
+
+                List<string> piRegistros = File.ReadAllLines(piPath).ToList();
+
                 List<string> repetidos = new List<string>();
 
+                List<string> exclusivosGPA = new List<string>();
 
-                foreach (string gpa in gpaRegistros)
-                {
-                    Console.WriteLine("Documentos gpa: " + gpa);
-                }
+                List<string> exclusivosPI = new List<string>();
 
-                Console.WriteLine();
 
                 foreach (string pi in piRegistros)
                 {
-                    Console.WriteLine("Documentos pi: " +  pi);
+                    Console.WriteLine("Documentos pi: " + pi);
 
                     if (gpaRegistros.Contains(pi))
                     {
                         repetidos.Add(pi);
+                    }
+                    else
+                    {
+                        exclusivosPI.Add(pi);
+                    }
+                }
+
+                Console.WriteLine();
+
+                foreach (string gpa in gpaRegistros)
+                {
+                    Console.WriteLine("Documentos gpa: " + gpa);
+
+                    if (!piRegistros.Contains(gpa))
+                    {
+                        exclusivosGPA.Add(gpa);
                     }
                 }
 
@@ -42,6 +57,38 @@ namespace LerArquivos
                 foreach (string repetido in repetidos)
                 {
                     Console.WriteLine(repetido);
+                }
+
+                using (StreamWriter sw = new StreamWriter(novoPath))
+                {
+                    sw.WriteLine("Documentos da GPA");
+                    foreach(string gpa in gpaRegistros)
+                    {
+                        sw.WriteLine(gpa);
+                    }
+                    sw.WriteLine("\nValores de PI:");
+                    foreach (string pi in piRegistros)
+                    {
+                        sw.WriteLine(pi);
+                    }
+
+                    sw.WriteLine("\nValores Repetidos:");
+                    foreach (string repetido in repetidos)
+                    {
+                        sw.WriteLine(repetido);
+                    }
+
+                    sw.WriteLine("\nValores Exclusivos de GPA:");
+                    foreach (string exclusivoGPA in exclusivosGPA)
+                    {
+                        sw.WriteLine(exclusivoGPA);
+                    }
+
+                    sw.WriteLine("\nValores Exclusivos de PI:");
+                    foreach (string exclusivoPI in exclusivosPI)
+                    {
+                        sw.WriteLine(exclusivoPI);
+                    }
                 }
 
             }

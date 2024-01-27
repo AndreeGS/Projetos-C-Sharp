@@ -9,9 +9,9 @@ namespace LerArquivos
     {
         static void Main(string[] args)
         {
-            string gpaPath = @"C:\te\arquivoGPA.txt";
-            string piPath = @"C:\te\arquivoPI.txt";
-            string novoPath = @"C:\te\arquivoNOVO.txt";
+            string gpaPath = @"C:\te\GPA.csv";
+            string piPath = @"C:\te\PI.csv";
+            string novoPath = @"C:\te\add.csv";
 
             try
             {
@@ -25,6 +25,8 @@ namespace LerArquivos
                 List<string> exclusivosGPA = new List<string>();
 
                 List<string> exclusivosPI = new List<string>();
+
+                List<string> Definitiva = new List<string>();
 
 
                 foreach (string pi in piRegistros)
@@ -54,42 +56,32 @@ namespace LerArquivos
                 }
 
                 Console.WriteLine();
-                foreach (string repetido in repetidos)
+
+                
+
+                Definitiva.Add("\nValores Repetidos:");
+                Definitiva.AddRange(repetidos);
+
+                Definitiva.Add("\nValores Exclusivos de GPA:");
+                Definitiva.AddRange(exclusivosGPA);
+
+                Definitiva.Add("\nValores Exclusivos de PI:");
+                Definitiva.AddRange(exclusivosPI);
+
+
+                foreach (string dado in Definitiva)
                 {
-                    Console.WriteLine(repetido);
+                    Console.WriteLine(dado);
                 }
 
                 using (StreamWriter sw = new StreamWriter(novoPath))
                 {
-                    sw.WriteLine("Documentos da GPA");
-                    foreach(string gpa in gpaRegistros)
+                    foreach (string linha in Definitiva)
                     {
-                        sw.WriteLine(gpa);
-                    }
-                    sw.WriteLine("\nValores de PI:");
-                    foreach (string pi in piRegistros)
-                    {
-                        sw.WriteLine(pi);
-                    }
-
-                    sw.WriteLine("\nValores Repetidos:");
-                    foreach (string repetido in repetidos)
-                    {
-                        sw.WriteLine(repetido);
-                    }
-
-                    sw.WriteLine("\nValores Exclusivos de GPA:");
-                    foreach (string exclusivoGPA in exclusivosGPA)
-                    {
-                        sw.WriteLine(exclusivoGPA);
-                    }
-
-                    sw.WriteLine("\nValores Exclusivos de PI:");
-                    foreach (string exclusivoPI in exclusivosPI)
-                    {
-                        sw.WriteLine(exclusivoPI);
+                        sw.WriteLine(linha);
                     }
                 }
+
 
             }
             catch (Exception ex)

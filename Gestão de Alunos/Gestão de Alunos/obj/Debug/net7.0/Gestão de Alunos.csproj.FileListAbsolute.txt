@@ -1,0 +1,14 @@
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\bin\Debug\net7.0\Gestão de Alunos.exe
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\bin\Debug\net7.0\Gestão de Alunos.deps.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\bin\Debug\net7.0\Gestão de Alunos.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\bin\Debug\net7.0\Gestão de Alunos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\bin\Debug\net7.0\Gestão de Alunos.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\Gestão de Alunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\Gestão de Alunos.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\Gestão de Alunos.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\Gestão de Alunos.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\Gestão de Alunos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\refint\Gestão de Alunos.dll
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\Gestão de Alunos.pdb
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\Gestão de Alunos.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Documentos\GitHub\Projetos-C-Sharp\Gestão de Alunos\Gestão de Alunos\obj\Debug\net7.0\ref\Gestão de Alunos.dll

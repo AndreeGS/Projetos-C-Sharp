@@ -58,5 +58,14 @@ namespace Gestão_de_Alunos.Model
                 + coursesString;
         }
 
+        public int getId()
+        {
+            return id;
+        }
+
+        public List<Course> getCourses()
+        {
+            return course;
+        }
     }
 }

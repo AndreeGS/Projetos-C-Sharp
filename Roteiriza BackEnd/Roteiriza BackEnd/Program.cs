@@ -1,0 +1,97 @@
+﻿using Roteiriza_BackEnd.Model;
+using System.ComponentModel.Design;
+using System.Xml.Linq;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        int selecao;
+        List<UserModel> users = new List<UserModel>();
+
+        Console.WriteLine("Cadastrar usuarío ");
+
+        do
+        {
+
+            Console.WriteLine("O que deseja fazer?");
+            Console.WriteLine("1 - Cadastrar Usuário");
+            Console.WriteLine("2 - Visualizar Usuarios");
+            selecao = int.Parse(Console.ReadLine());
+
+            switch (selecao)
+            {
+                case 1:
+
+                    Console.Write("\nInforme o id do Usuário: ");
+                    int id = int.Parse(Console.ReadLine());
+
+                    Console.Write("\nInforme o nome: ");
+                    string name = Console.ReadLine();
+
+                    Console.Write("\nInforme o password: ");
+                    string password = Console.ReadLine();
+
+                    Console.Write("\nInforme o email: ");
+                    string email = Console.ReadLine();
+
+                    Console.WriteLine("Deseja Cadastrar uma (1)Viagem, um (2)Card ou (3)Nenhum?");
+                    int selecaoDoCadastro = int.Parse(Console.ReadLine());
+
+                    if (selecaoDoCadastro == 1)
+                    {
+                        Console.Write("\nInforme o Id Da Viagem: ");
+                        int idTravel = int.Parse(Console.ReadLine());
+
+                        Console.Write("\n Informe o Nome da Viagem: ");
+                        string nameTravel = Console.ReadLine();
+
+                        Console.Write("\n Informe o Descrição da Viagem: ");
+                        string descriptionTravel = Console.ReadLine();
+
+                        Console.Write("\n Informe o Data inical da viagem: (DD/MM/YYYY) ");
+                        DateTime dateInitial = DateTime.Parse(Console.ReadLine());
+
+                        Console.Write("\n Informe o Data Final da viagem: (DD/MM/YYYY) ");
+                        DateTime dateFinal = DateTime.Parse(Console.ReadLine());
+
+
+                        Console.Write("\n Informe o valor da viagem: ");
+                        double valueTravel = double.Parse(Console.ReadLine());
+
+                        users.Add(new UserModel(id, name, email, password, new TravelModel(idTravel, nameTravel, descriptionTravel, dateInitial, dateFinal, valueTravel)));
+                        Console.WriteLine("\nUsuario Adicionado!");
+
+                    }
+                    else if (selecaoDoCadastro == 2)
+                    {
+                        Console.Write("\nInforme o Id Da Viagem: ");
+                        int idCard = int.Parse(Console.ReadLine());
+
+                        Console.Write("\n Informe o Nome da Viagem: ");
+                        string nameCard = Console.ReadLine();
+
+                        Console.Write("\n Informe o Descrição da Viagem: ");
+                        string descriptionCard = Console.ReadLine();
+
+                        users.Add(new UserModel(id, name, email, password, new CardModel(idCard, nameCard, descriptionCard)));
+                        Console.WriteLine("\nUsuario Adicionado!");
+                    }
+
+                    else
+                    {
+                        users.Add(new UserModel(id, name, email, password));
+                    }
+
+                    break;
+
+                case 2:
+                    foreach (UserModel user in users)
+                    {
+                        Console.WriteLine(user);
+                    }
+                    break;
+            }
+        } while (selecao != 3);
+    }
+}

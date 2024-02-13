@@ -12,11 +12,7 @@ namespace Roteiriza_BackEnd.Model
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public List<Valor> Valors { get; set; }
-
         public TravelModel? Travels { get; set; }
-
-        public CardModel Cards { get; set; }
 
         public UserModel(int id, string name, string email, string password) 
         { 
@@ -33,14 +29,6 @@ namespace Roteiriza_BackEnd.Model
             Password = password;
             Travels = travels;
         }
-        public UserModel(int id, string name, string email, string password, CardModel? cards)
-        {
-            Id = id;
-            Name = name;
-            Email = email;
-            Password = password;
-            Cards = cards;
-        }
 
         public override string ToString()
         {
@@ -55,9 +43,8 @@ namespace Roteiriza_BackEnd.Model
                 + "\n Password: "
                 + Password
                 + "\nViagens: "
-                + Travels
-                + "\nCards: "
-                + Cards;
+                + Travels;
+                
                              
         }
     }

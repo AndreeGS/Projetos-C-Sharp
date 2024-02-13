@@ -1,4 +1,5 @@
-﻿using Roteiriza_BackEnd.Model;
+﻿using Microsoft.VisualBasic;
+using Roteiriza_BackEnd.Model;
 using System.ComponentModel.Design;
 using System.Xml.Linq;
 
@@ -55,34 +56,42 @@ class Program
                         Console.Write("\n Informe o Data Final da viagem: (DD/MM/YYYY) ");
                         DateTime dateFinal = DateTime.Parse(Console.ReadLine());
 
+                        Console.WriteLine("\n Deseja adicioanr um valor? 1-Sim 2-Não");
+                        int valorSimNao = int.Parse(Console.ReadLine());
+                        if (valorSimNao == 1)
+                        {
+                            Console.Write("Informe o id desse Valor: ");
+                            int idValor = int.Parse(Console.ReadLine());
 
-                        Console.Write("\n Informe o valor da viagem: ");
-                        double valueTravel = double.Parse(Console.ReadLine());
+                            Console.Write("Informe o Titulo da despesa: ");
+                            string nameValor = Console.ReadLine();
 
-                        users.Add(new UserModel(id, name, email, password, new TravelModel(idTravel, nameTravel, descriptionTravel, dateInitial, dateFinal, valueTravel)));
-                        Console.WriteLine("\nUsuario Adicionado!");
+                            Console.Write("\n Informe o valor da viagem: ");
+                            double valueTravel = double.Parse(Console.ReadLine());
 
+                            users.Add(new UserModel(id, name, email, password, new TravelModel(idTravel, nameTravel, descriptionTravel, dateInitial, dateFinal, new Valor(idValor, valueTravel, nameValor))));
+                            Console.WriteLine("\nUsuario Adicionado!");
+                        }
+                        else if (valorSimNao == 2)
+                        {
+                            users.Add(new UserModel(id, name, email, password, new TravelModel(idTravel, nameTravel, descriptionTravel, dateInitial, dateFinal)));
+                            Console.WriteLine("\nUsuario Adicionado!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Seleção incorreta!");
+                        }
                     }
                     else if (selecaoDoCadastro == 2)
                     {
-                        Console.Write("\nInforme o Id Da Viagem: ");
-                        int idCard = int.Parse(Console.ReadLine());
+                        users.Add(new UserModel(id, name, email, password));
 
-                        Console.Write("\n Informe o Nome da Viagem: ");
-                        string nameCard = Console.ReadLine();
-
-                        Console.Write("\n Informe o Descrição da Viagem: ");
-                        string descriptionCard = Console.ReadLine();
-
-                        users.Add(new UserModel(id, name, email, password, new CardModel(idCard, nameCard, descriptionCard)));
-                        Console.WriteLine("\nUsuario Adicionado!");
                     }
 
                     else
                     {
-                        users.Add(new UserModel(id, name, email, password));
+                        Console.WriteLine("Opção inválida!");
                     }
-
                     break;
 
                 case 2:

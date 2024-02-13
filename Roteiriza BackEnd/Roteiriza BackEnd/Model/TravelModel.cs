@@ -3,22 +3,36 @@ using Roteiriza_BackEnd.Model;
 
 namespace Roteiriza_BackEnd.Model
 {
-    public  class TravelModel : AbstractCardModel
+    public  class TravelModel 
     {
+        public int IdTravel { get; set; }
+
+        public string CardName { get; set; }
+
+        public string CardDescription { get; set; }
         public DateTime travelDateInitial {  get; set; }
         public DateTime travelDateFinal { get; set; }
+        public Valor? travelValue {  get; set; }
 
-        public double travelValue {  get; set; }
-
-        public TravelModel(int cardId, string cardName, string cardDescription, DateTime travelDateInitial, DateTime travelDateFinal, double travelValue) 
-            : base (cardId, cardName, cardDescription)
+        public TravelModel(int idTravel, string cardName, string cardDescription, DateTime travelDateInitial, DateTime travelDateFinal)
         {
+            IdTravel = idTravel;
+            CardName = cardName;
+            CardDescription = cardDescription;
             this.travelDateInitial = travelDateInitial;
             this.travelDateFinal = travelDateFinal;
             this.travelValue = travelValue;
         }
 
-        
+        public TravelModel(int idTravel, string cardName, string cardDescription, DateTime travelDateInitial, DateTime travelDateFinal, Valor travelValue)
+        {
+            IdTravel = idTravel;
+            CardName = cardName;
+            CardDescription = cardDescription;
+            this.travelDateInitial = travelDateInitial;
+            this.travelDateFinal = travelDateFinal;
+            this.travelValue = travelValue;
+        }
 
         public override string ToString()
         {
@@ -28,7 +42,7 @@ namespace Roteiriza_BackEnd.Model
                 + CardDescription
                 + "\n Data da viagem: "
                 + travelDateInitial + " Até " + travelDateFinal 
-                + "\n Valor da viagem: "
+                + "\n Desepesas: \n"
                 + travelValue;
         }
     }

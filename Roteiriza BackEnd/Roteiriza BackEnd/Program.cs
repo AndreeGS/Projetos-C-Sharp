@@ -2,13 +2,16 @@
 using Roteiriza_BackEnd.Model;
 using System.ComponentModel.Design;
 using System.Xml.Linq;
+using System.Collections.Generic;
 
 class Program
 {
     public static void Main(string[] args)
     {
         int selecao;
-        List<UserModel> users = new List<UserModel>();
+        int id;
+
+        List<UserModel> users = new List<UserModel>();    
 
         Console.WriteLine("Cadastrar usuarío ");
 

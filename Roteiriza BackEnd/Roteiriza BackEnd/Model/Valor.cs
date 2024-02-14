@@ -13,6 +13,7 @@ namespace Roteiriza_BackEnd.Model
         public double valor { get; set; }
         public string name { get; set; }
 
+
         public Valor(int id, double valor, string name)
         {
             this.id = id;

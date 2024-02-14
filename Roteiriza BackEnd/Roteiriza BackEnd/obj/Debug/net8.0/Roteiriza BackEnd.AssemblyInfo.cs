@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Roteiriza BackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e095a477c39264406f1c96f0e494c1607bf84be7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+058f85df669de5d1b758df0199aa0b7480ed3cd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Roteiriza BackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Roteiriza BackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

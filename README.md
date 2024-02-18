@@ -4,7 +4,7 @@ Aqui é onde centralizei meus projetos em C#, você vai encontrar meus estudos d
 
 ## Projetos 
 
-1. **Sistema Bancário C# com armazenamento em HashTable - EM ATUALIZAÇÃO**
+1. **Sistema Bancário C# com armazenamento em List - EM ATUALIZAÇÃO**
    - Repositório: *https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/Sistema%20Bancario*
    - Projeto desenvolvido em C# utilizando Programação Orientada a Objetos (POO), no qual foram aplicados conceitos de modificadores de acesso, sobrecarga, estrutura de dados (HashTable), entre outros princípios. O projeto simula um ambiente de sistema bancário, permitindo que os usuários realizem operações como cadastro, visualização de informações, saque e depósito. Destaca-se que as operações de saque resultam em um desconto de 5 reais no saldo do usuário.
    - Principais tecnologias: POO C#, Algoritimo e estrutura de dados.
@@ -25,9 +25,9 @@ Aqui é onde centralizei meus projetos em C#, você vai encontrar meus estudos d
    - Um dos projetos que me fazem sentir orgulho dos meus estudos. Nesse projeto faço a simulação de um pedido *compra*, onde é possível adicionar um produto bem como seu preço associado a um cliente. Utilizei uma Lista para armazenar os produtos, valores e quantidade tudo associado a um cliente. Também é capturado a data e hora do pedido e ao final é possível visualizar todas as informações.
    - Principais tecnologias: POO C#, Algoritimos e estrutura de dados.
 ---
-5. **Sistema CRUD - EM ATUALIZAÇÃO**
-   - Repositório: *https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/Sistema%20CRUD*
-   - Projeto de sistema CRUD, o usuário pode cadastrar, visualizar, atualizar e deletar suas informações utilizando o padrão MVC. Projeto ainda em desenvolvimento.
+5. **CRUD - EM ATUALIZAÇÃO**
+   - Repositório: *https://github.com/AndreeGS/Projetos-C-Sharp/tree/main/CRUD*
+   - Projeto de sistema CRUD, o usuário pode cadastrar, visualizar, atualizar e deletar suas informações utilizando o padrão MVC ASP.NET. Projeto ainda em desenvolvimento.
    - Principais tecnologias: POO C#, Algoritimos e estrutura de dados, .NET, ASP.NET MVC.
 ---   
 6. **Simulação de Cadastro de Veículos - EM ATUALIZAÇÃO**

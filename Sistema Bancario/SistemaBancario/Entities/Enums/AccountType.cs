@@ -10,12 +10,12 @@ namespace SistemaBancario.Entities.Enums
     public enum AccountType
     {
         [Description("Conta Corrente")]
-        CheckingAccount,
+        CheckingAccount = 1,
         [Description("Conta Poupança")]
-        SavingsAccount,
+        SavingsAccount = 2,
         [Description("Conta Salário")]
-        SalaryAccount,
+        SalaryAccount = 3,
         [Description("Conta de Investimento")]
-        InvestmentAccount
+        InvestmentAccount = 4
     }
 }

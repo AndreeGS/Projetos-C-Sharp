@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj": {}
+    "C:\\Users\\Andre\\Documents\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj": {
+    "C:\\Users\\Andre\\Documents\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj",
+        "projectUniqueName": "C:\\Users\\Andre\\Documents\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj",
         "projectName": "SistemaBancario",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\obj\\",
+        "projectPath": "C:\\Users\\Andre\\Documents\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\SistemaBancario.csproj",
+        "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andre\\Documents\\GitHub\\Projetos-C-Sharp\\Sistema Bancario\\SistemaBancario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

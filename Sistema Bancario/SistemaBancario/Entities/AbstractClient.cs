@@ -29,7 +29,7 @@ namespace SistemaBancario.Entities
 
         public abstract string gerarRecibo(double valor);
 
-
+        
 
 
     }

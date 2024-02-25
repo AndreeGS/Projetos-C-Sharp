@@ -1,6 +1,8 @@
-﻿using SistemaBancario.Entities;
+﻿using SistemaBancario.Data;
+using SistemaBancario.Entities;
 using SistemaBancario.Entities.Clients;
 using SistemaBancario.Entities.Enums;
+using SistemaBancario.View;
 using System;
 using System.Globalization;
 using System.Security.Principal;
@@ -11,17 +13,14 @@ namespace Aplicacao
     {
         static void Main(string[] args)
         {
-
-            List<AbstractClient> clients = new List<AbstractClient>();
             int escolha;
 
             do
             {
-                Console.Write("Cadastro de Cliente");
-                Console.WriteLine("Qual tipo de conta você deseja cadastrar? ");
-                Console.WriteLine("1 - Conta corrente");
-                Console.WriteLine("2 - Conta poupança");
-                Console.WriteLine("3 - Visualizar clientes");
+                Menu menu = new Menu();
+                menu.exibirMenu();
+
+                ClientData data = new ClientData();
 
                 escolha = int.Parse(Console.ReadLine());
 
@@ -51,13 +50,14 @@ namespace Aplicacao
                             Console.WriteLine("Informe o valor a ser depositado: ");
                             double valorDepositado = double.Parse(Console.ReadLine());
 
+                            Console.WriteLine("O seu número da Conta é {0}", idAccountChecking);
 
-                            clients.Add(new ClientCurrent(idAccountChecking, nameChecking, accountChecking, typeChecking, valorDepositado, dateCheckingDep));
+                            data.CadClient(new ClientCurrent(idAccountChecking, nameChecking, accountChecking, typeChecking, valorDepositado, dateCheckingDep));
                         }
                         else
                         {
-
-                            clients.Add(new ClientCurrent(idAccountChecking, nameChecking, accountChecking, typeChecking));
+                            Console.WriteLine("O seu número da Conta é {0}", idAccountChecking);
+                            data.CadClient(new ClientCurrent(idAccountChecking, nameChecking, accountChecking, typeChecking));            
                         }
                         break;
 
@@ -85,21 +85,21 @@ namespace Aplicacao
                             Console.WriteLine("Informe o valor a ser depositado: ");
                             double valorDepositado = double.Parse(Console.ReadLine());
 
-
-                            clients.Add(new ClientSavings(valorDepositado, dateSavingDep, idAccountSaving, nameSaving, accountSavings, typeSaving));
+                            Console.WriteLine("O seu número da Conta é {0}", idAccountSaving);
+                            data.CadClient(new ClientSavings(valorDepositado, dateSavingDep, idAccountSaving, nameSaving, accountSavings, typeSaving));
                         }
                         else
                         {
+                            Console.WriteLine("O seu número da Conta é {0}", idAccountSaving);
 
-                            clients.Add(new ClientSavings(dateSavingDep, idAccountSaving, nameSaving, accountSavings, typeSaving));
+                            data.CadClient(new ClientSavings(dateSavingDep, idAccountSaving, nameSaving, accountSavings, typeSaving));
                         }
                         break;
                     case 3:
-                        Console.WriteLine("Clientes cadastrados: ");
-                        foreach (AbstractClient clien in clients)
-                        {
-                            Console.WriteLine(clien);
-                        }
+                        data.VisuClient();
+                        break;
+                    case 4:
+                        data.ProcurarClient();
                         break;
                     default:
                         Console.WriteLine("Opção inválida!");

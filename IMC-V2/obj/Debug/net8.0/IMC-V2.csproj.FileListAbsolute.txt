@@ -1,0 +1,15 @@
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\bin\Debug\net8.0\IMC-V2.exe
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\bin\Debug\net8.0\IMC-V2.deps.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\bin\Debug\net8.0\IMC-V2.runtimeconfig.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\bin\Debug\net8.0\IMC-V2.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\bin\Debug\net8.0\IMC-V2.pdb
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.AssemblyInfoInputs.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.AssemblyInfo.cs
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.sourcelink.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\refint\IMC-V2.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.pdb
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\IMC-V2.genruntimeconfig.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\IMC-V2\obj\Debug\net8.0\ref\IMC-V2.dll

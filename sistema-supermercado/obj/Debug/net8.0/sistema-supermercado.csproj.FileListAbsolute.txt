@@ -1,0 +1,15 @@
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.AssemblyInfoInputs.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.AssemblyInfo.cs
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.sourcelink.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\bin\Debug\net8.0\sistema-supermercado.exe
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\bin\Debug\net8.0\sistema-supermercado.deps.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\bin\Debug\net8.0\sistema-supermercado.runtimeconfig.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\bin\Debug\net8.0\sistema-supermercado.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\bin\Debug\net8.0\sistema-supermercado.pdb
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\refint\sistema-supermercado.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.pdb
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\sistema-supermercado.genruntimeconfig.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-supermercado\obj\Debug\net8.0\ref\sistema-supermercado.dll

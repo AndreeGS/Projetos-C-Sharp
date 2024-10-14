@@ -1,0 +1,15 @@
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\bin\Debug\net8.0\sistema-escolar.exe
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\bin\Debug\net8.0\sistema-escolar.deps.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\bin\Debug\net8.0\sistema-escolar.runtimeconfig.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\bin\Debug\net8.0\sistema-escolar.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\bin\Debug\net8.0\sistema-escolar.pdb
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.AssemblyInfoInputs.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.AssemblyInfo.cs
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.sourcelink.json
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\refint\sistema-escolar.dll
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.pdb
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\sistema-escolar.genruntimeconfig.cache
+C:\Users\Andre\Documents\GitHub\Projetos-C-Sharp\sistema-escolar\obj\Debug\net8.0\ref\sistema-escolar.dll

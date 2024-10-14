@@ -69,7 +69,8 @@ public class Progam {
                 case 3:
                     Console.WriteLine("Qual o Produto você quer Remover?");
                     string produtoDelete = Console.ReadLine();
-                    
+                   
+
                     Produto produtoToDelete = dados.FirstOrDefault(x => x.nome == produtoDelete);
 
                     if (produtoDelete != null){
